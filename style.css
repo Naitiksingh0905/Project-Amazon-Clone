@@ -347,6 +347,175 @@ span {
     text-decoration: none;
 }
 
+/* Media Queries */
+
+/*  Mobile devices - 768 px */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .nav-address,
+    .nav-lang,
+    .nav-return {
+        display: none; 
+    }
+
+    .nav-logo {
+        width: 80px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 40px;
+    }
+
+    /* Panel */
+    .panel {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 5px;
+    }
+
+    .panel-options {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .panel-options a,
+    .panel-options select {
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    .panel-deals {
+        display: none;
+    }
+
+    /* Hero */
+    .hero-section {
+        height: 200px;
+        background-size: cover;
+    }
+
+    /* Shop section */
+    .box {
+        width: 48%; 
+    }
+
+    .box1-heading {
+        font-size: 16px;
+    }
+
+    /* Footer */
+    .footerpanel02 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .footerpanel02 ul {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/* Small Mobile - 480px */
+
+@media (max-width: 480px) {
+
+    .box {
+        width: 100%; 
+    }
+
+    .nav-signin-account {
+        font-size: 12px;
+    }
+
+    .nav-cart {
+        font-size: 12px;
+    }
+
+    .search-input {
+        font-size: 12px;
+    }
+
+    .hero-section {
+        height: 150px;
+    }
+}
+
+
+/* Tablet (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .nav-search {
+        order: 3;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-address,
+    .nav-return {
+        display: none;
+    }
+
+    .nav-signin-account {
+        font-size: 13px;
+    }
+
+    .nav-cart {
+        font-size: 13px;
+    }
+
+    .panel {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 8px;
+    }
+
+    .panel-options {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 5px;
+    }
+
+    .panel-options a,
+    .panel-options select {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .panel-deals {
+        display: none;
+    }
+}
+
+
+
+
 /* COPYRIGHT CREDIT AMAZON.IN */
 /* DEVELOPER OF THIS SPECIFIC PROJECT - Naitiksingh0905 */
 
