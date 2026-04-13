@@ -1,7 +1,6 @@
 #  Amazon Clone (Responsive)
 
-This is a front-end clone of the Amazon website built using HTML and CSS.  
-The project is designed to practice layout, styling, and responsive design.
+This is a front-end clone of the original Amazon.in website built using HTML and CSS. The project is designed to practice layout, styling, and responsive design. The main purpose of this project for learing, experience and more functionality would be added in future.
 
 ---
 
@@ -17,16 +16,12 @@ The project is designed to practice layout, styling, and responsive design.
 
 ##  Responsiveness
 
-This project is fully responsive:
+This project is fully responsive for Desktop view, Tablet (iPad) view, Mobile view. 
 
-- Desktop view 
-- Tablet (iPad) view 
-- Mobile view 
-
-Media queries are used to adjust:
-- Navbar layout
-- Product grid (4 → 2 → 1 columns)
-- Footer alignment
+Media queries are used to adjust-
+Navbar layout
+Product grid (4 → 2 → 1 columns)
+Footer alignment
 
 ---
 
@@ -37,34 +32,23 @@ Media queries are used to adjust:
 
 ---
 
-##  Screenshots
-
-(Add screenshots here later)
-
----
-
 ## 📌 Future Improvements
 
-- Add JavaScript functionality:
-  - Add to Cart 
-  - Search functionality 
-  - Hamburger menu 
-- Improve UI animations
-- Make it more similar to real Amazon
+Add JavaScript functionality like (Add to Cart, Search functionality, Dropdown options)
+Make it more similar to real Amazon
 
 ---
 
 ##  Project Status
 
-✔ Completed UI  
-✔ Responsive Design Added  
-🚧 JavaScript features coming soon
+- Completed UI  
+- Responsive Design Added  
+- JavaScript features coming soon
 
---
+---
 
-##  Author
-
-- Naitik Singh (Naitiksingh0905)
+##  Author 
+Naitik Singh (Naitiksingh0905)
 
 ---
 
