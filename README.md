@@ -60,7 +60,7 @@ Media queries are used to adjust:
 ✔ Responsive Design Added  
 🚧 JavaScript features coming soon
 
----
+--
 
 ##  Author
 
